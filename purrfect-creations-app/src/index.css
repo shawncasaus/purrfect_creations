@@ -19,23 +19,11 @@ button {
   border-radius: 0% !important;
   background-color: #000 !important;
   opacity: 0.75 !important;
-}
-
-a {
-  text-decoration: none !important;
-  color: #000 !important;
-}
-
-a:hover {
-  font-size: 125%;
+  color: #fff;;
 }
 
 .nav-bar {
   background-color: #000;
-}
-
-.input-col {
-  padding: 0 !important;
 }
 
 .footer {
@@ -97,13 +85,4 @@ a:hover {
 
 .dashboards-table {
   margin-bottom: 5rem;
-}
-
-@media screen and (max-width: 640px) {
-  .url-form {
-    width: 75%;
-    text-align: center;
-    margin: auto;
-    margin-top: 2rem;
-  }
 }
