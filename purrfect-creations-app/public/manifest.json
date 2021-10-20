@@ -1,0 +1,9 @@
+{
+  "short_name": "Boiler Plate Project",
+  "name": "Boiler Plate Project",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,109 @@
+/*!important used in excess to override react bootstrap styles*/
+/*Would normall not do this, however bootstrap saves time styling*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button { 
+  border-radius: 0% !important;
+  background-color: #000 !important;
+  opacity: 0.75 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+a:hover {
+  font-size: 125%;
+}
+
+.nav-bar {
+  background-color: #000;
+}
+
+.input-col {
+  padding: 0 !important;
+}
+
+.footer {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+.footer h3 {
+  text-align: center !important;
+  margin: auto !important;
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.metrics {
+  position: relative;
+  display: flex;
+  flex-grow: 4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin-left: 2rem;
+}
+
+.metrics h1 {
+  color: #f71c3d;
+}
+
+.dropdown {
+  position: relative;
+  text-align: left;
+  margin-right: 0.25rem;
+}
+
+.table-header {
+  position: relative;
+  display: flex;
+  flex-grow: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.pagination {
+  position: relative;
+  display: flex;
+  flex-grow: 4;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.dashboards-table {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .url-form {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
