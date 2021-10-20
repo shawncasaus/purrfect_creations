@@ -44,6 +44,7 @@ const HomePage = () => {
     //get metrics
     useEffect(() => {    
         const fetchUrl = metricsUrl;
+        setLoadingMetrics(true);
 
         const options = {
             method: 'GET',
@@ -93,8 +94,6 @@ const HomePage = () => {
             setOffset={setOffset}
             prevOffset={prevOffset}
             setPrevOffset={setPrevOffset}
-            revenue={metric}
-            setRevenue={setMetric}
             error={error}
             setError={setError}
             loading={loading}
